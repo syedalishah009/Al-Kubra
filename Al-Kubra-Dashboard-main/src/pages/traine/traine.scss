@@ -1,0 +1,95 @@
+.table {
+    margin: 0 auto;
+    width: 97%;
+    margin-top: 20px;
+    // background-color: #e94560;
+   
+    .cellWrapper {
+      display: flex;
+      align-items: center;
+     
+  
+      .image {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+      }
+    }
+  
+    .status {
+      padding: 5px;
+      border-radius: 5px;
+  
+  
+        color: green;
+        background-color: rgba(0, 128, 0, 0.151);
+      }
+      
+    }
+  
+
+  .list {
+    display: flex;
+    width: 100%;
+    .listContainer {
+      flex: 6;
+      .table-container {
+        max-height: 500px; /* Adjust the maximum height as needed */
+        overflow-y: auto;
+      }
+    }
+  }
+
+  /* StatusUpdate.css */
+
+.dropdown-container {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 100%;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+  appearance: none; /* Remove default styles on some browsers */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.dropdown::after {
+  content: '\25BC'; /* Downward pointing triangle */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* To allow clicks on the select element */
+  
+}
+
+.dropdown:focus {
+  outline: none;
+  border-color: #e94560;
+// color: #e94560;
+
+}
+
+/* Style for dropdown options */
+.dropdown option {
+  padding: 8px;
+  
+}
+
+/* Style for dropdown arrow icon */
+.dropdown::-ms-expand {
+  display: none; /* Remove default arrow on IE */
+}
+
+
+  

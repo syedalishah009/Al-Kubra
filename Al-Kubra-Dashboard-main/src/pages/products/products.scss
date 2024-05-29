@@ -1,0 +1,116 @@
+.list {
+    display: flex;
+    width: 100%;
+    
+    .listContainer {
+      flex: 6;
+      .datatableTitle{
+        width: 95%;
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .search {
+          display: flex;
+          align-items: center;
+          border: 0.5px solid lightgray;
+          padding: 0px;
+    
+          input {
+            border: none;
+            outline: none;
+            background: transparent;
+    
+            &::placeholder {
+              font-size: 12px;
+            }
+          }
+        }
+    
+        .link{
+          text-decoration: none;
+          color: #0f3460;
+          font-size: 16px;
+          font-weight: 400;
+          border: 1px solid #0f3460;
+          padding: 5px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+    
+  }
+  .table {     
+    .tableCell{
+   
+    
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: fill;
+      margin-right: 20px;
+      margin-top: 0px;
+    }
+  }}
+
+    
+  
+  }
+ 
+
+  
+/* Style for the Dialog Box */
+.confirm-dialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.confirm-dialog-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.confirm-dialog-message {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.confirm-dialog-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-dialog-button {
+  margin: 0 8px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.confirm-dialog-button.cancel {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.confirm-dialog-button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.confirm-dialog-button.delete:hover {
+  background-color: #d32f2f;
+}

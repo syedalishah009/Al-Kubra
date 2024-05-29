@@ -1,0 +1,32 @@
+.order-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+
+  .order-header {
+    text-align: center;
+  }
+
+  .order-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+
+    .address, .payment, .pricing {
+      flex: 1;
+      padding: 10px;
+      border-right: 1px solid #eee;
+    }
+  }
+
+  h2, h3 {
+    margin: 0;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}

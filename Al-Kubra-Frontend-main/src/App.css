@@ -1,0 +1,59 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #e94560;
+  padding: 10px 0;
+}
+
+.link {
+  cursor: pointer;
+  /* color: rgb(77, 76, 76); */
+}
+
+.link:hover {
+  color: #ee637a;
+  transition: 0.3s ease;
+}
+
+.bg-primary {
+  background-color: #e94560;
+}
+.bg-secondary {
+  background-color: #0f3460;
+}
+
+.text-secondry{
+  color: #0f3460;
+}
+.text-primary {
+  color: #e94560;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 97%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.custom-slider::-webkit-slider-thumb {
+  /* Styling for the slider thumb in Webkit browsers (Chrome, Safari) */
+  background-color: black;
+}
+
+.custom-slider::-moz-range-thumb {
+  /* Styling for the slider thumb in Firefox */
+  background-color: black;
+}
+
+.custom-slider::-ms-thumb {
+  /* Styling for the slider thumb in Microsoft Edge */
+  background-color: black;
+}

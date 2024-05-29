@@ -1,0 +1,36 @@
+{
+  "faqs":[
+  {
+      "question": "What is Al-Kubra?",
+      "answer": "Al-Kubra is an e-commerce platform that celebrates the artistry and craftsmanship of women artisans from Azad Kashmir. We offer a curated collection of handmade products, ranging from textiles to home decor, created by skilled artisans."
+  },
+  {
+      "question": "Who are the artisans behind Al-Kubra?",
+      "answer": "Our artisans are women from production centers across Azad Kashmir. They undergo training in sewing, embroidery, and handicrafts, showcasing their talents and preserving the region's cultural heritage."
+  },
+  {
+      "question": "How can I make a purchase?",
+      "answer": "Shopping at Al-Kubra is easy! Browse our products, select the items you love, and add them to your cart. When you're ready, proceed to checkout and follow the steps to complete your purchase."
+  },
+  {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept a variety of payment methods, including major credit and debit cards. We also offer secure payment gateways to ensure a smooth and safe transaction process."
+  },
+  {
+      "question": "What is your shipping policy?",
+      "answer": "Our shipping times may vary based on your location and product availability. We provide estimated delivery times during the checkout process. Please review our Shipping & Delivery page for more details."
+  },
+  {
+      "question": "Can I return or exchange products?",
+      "answer": "Yes, we want you to be satisfied with your purchase. If you're not completely happy with your order, please review our Return Policy for information on returns and exchanges."
+  },
+  {
+      "question": "How can I contact Al-Kubra for assistance?",
+      "answer": "We're here to help! You can reach our dedicated support team via email at support@alkubra.com or through our Contact Us page."
+  },
+  {
+      "question": "How does Al-Kubra support women artisans?",
+      "answer": "Al-Kubra empowers women artisans by providing them with training, resources, and a platform to showcase their creations. Your purchases directly contribute to their economic growth and financial independence."
+  }
+]
+}

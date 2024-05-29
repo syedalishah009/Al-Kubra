@@ -1,0 +1,30 @@
+.user-card {
+  width: 350px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+  .MuiCardMedia-img {
+    object-fit: cover;
+  }
+
+  .MuiCardContent-root {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    .MuiTypography-root {
+      margin-bottom: 8px;
+
+      svg {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
